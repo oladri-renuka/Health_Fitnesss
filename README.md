@@ -55,20 +55,20 @@ This is an AI-powered Health and Fitness App that offers three main functionalit
 
 To run this app locally, follow the steps below:
 
-1. **Clone the repository**:
+### 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/health-fitness-app.git
 
-2. **Navigate to the app folder**:
+### 2. **Navigate to the app folder**:
   ```bash
   cd health-fitness-app 
 
-### 2. **Create a virtual environment (Optional but recommended)**  
+### 3. **Create a virtual environment (Optional but recommended)**  
 ```bash
 python -m venv venv
 ```
 
-### 3. **Activate the virtual environment**  
+### 4. **Activate the virtual environment**  
 - **On Windows:**  
   ```bash
   venv\Scripts\activate
@@ -78,12 +78,12 @@ python -m venv venv
   source venv/bin/activate
   ```
 
-### 4. **Install the dependencies**  
+### 5. **Install the dependencies**  
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. **Run the Streamlit app**  
+### 6. **Run the Streamlit app**  
 ```bash
 streamlit run app.py
 ```
