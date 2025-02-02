@@ -60,39 +60,54 @@ To run this app locally, follow the steps below:
    git clone https://github.com/your-username/health-fitness-app.git
 
 2. **Navigate to the app folder**:
-```bash
-cd health-fitness-app
+  ```bash
+  cd health-fitness-app 
 
-3. **Create a virtual environment (Optional but recommended)**:
+### 2. **Create a virtual environment (Optional but recommended)**  
 ```bash
 python -m venv venv
+```
 
-4. **Activate the virtual environment**:
-On Windows:
-```bash
-venv\Scripts\activate
-On Mac/Linux:
-```bash
-source venv/bin/activate
+### 3. **Activate the virtual environment**  
+- **On Windows:**  
+  ```bash
+  venv\Scripts\activate
+  ```
+- **On Mac/Linux:**  
+  ```bash
+  source venv/bin/activate
+  ```
 
-5. ** Install the dependencies**:
+### 4. **Install the dependencies**  
 ```bash
 pip install -r requirements.txt
+```
 
-6. **Run the Streamlit app**:
+### 5. **Run the Streamlit app**  
 ```bash
 streamlit run app.py
+```
 
-Files
-app.py: Main Streamlit app file containing the logic for all pages.
-xgboost_model.joblib: Pre-trained XGBoost model for PCOS prediction.
-recipes.csv: Dataset for meal recommendations.
-gym recommendation.csv: Dataset for exercise recommendations.
-personalised-exercise-recommendation.ipynb: python code for exercise recommendation
-pcos_filtered.csv: Dataset for with selected features for PCOS prediction
-pcos-prediction.ipynb:Python code for PCOS prediciton
-diet-recommendation.ipynb: python code for diet recommendation
-PCOS_infertility.csv: Dataset with infertility
-PCOS_data_without_infertility.xlsx: Dataset for PCOS without infertility
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
+
+## Files  
+
+| File Name                                       | Description |
+|------------------------------------------------|-------------|
+| `app.py`                                      | Main Streamlit app file containing the logic for all pages. |
+| `xgboost_model.joblib`                         | Pre-trained XGBoost model for PCOS prediction. |
+| `recipes.csv`                                  | Dataset for meal recommendations. |
+| `gym recommendation.csv`                       | Dataset for exercise recommendations. |
+| `personalised-exercise-recommendation.ipynb`   | Python code for exercise recommendation. |
+| `pcos_filtered.csv`                            | Dataset with selected features for PCOS prediction. |
+| `pcos-prediction.ipynb`                        | Python code for PCOS prediction. |
+| `diet-recommendation.ipynb`                    | Python code for diet recommendation. |
+| `PCOS_infertility.csv`                         | Dataset with infertility data. |
+| `PCOS_data_without_infertility.xlsx`           | Dataset for PCOS without infertility. |
+
+---
+
+## License  
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
