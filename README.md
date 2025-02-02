@@ -58,10 +58,12 @@ To run this app locally, follow the steps below:
 ### 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/health-fitness-app.git
+   ```
 
 ### 2. **Navigate to the app folder**:
   ```bash
-  cd health-fitness-app 
+  cd health-fitness-app
+```
 
 ### 3. **Create a virtual environment (Optional but recommended)**  
 ```bash
