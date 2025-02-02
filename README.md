@@ -1,15 +1,23 @@
-# Health & Fitness web application
-![image](https://github.com/user-attachments/assets/d5ff4ecd-6398-4a0e-a543-f8a8d2b955b0)
+# 🏥Health & Fitness web application
+Web application: 
+![image](https://github.com/user-attachments/assets/5419b247-14d6-4ffd-bc7c-417b2e71f373)
+PCOS prediction:
+![image](https://github.com/user-attachments/assets/460300f8-e7c7-4ea6-bc88-038dc0a9f43d)
+Diet recommendation:
+![image](https://github.com/user-attachments/assets/822b0bc3-c817-454a-a1ca-8c5d102768a0)
+Exercise Recommendation:
+![image](https://github.com/user-attachments/assets/e5ba31f4-27c2-498b-952d-97d44bf5ee64)
+
 
 
 This is an AI-powered Health and Fitness App that offers three main functionalities:
-1. **PCOS Prediction**: Predicts the likelihood of PCOS (Polycystic Ovary Syndrome) based on user inputs.
-2. **Diet Recommendations**: Provides personalized meal recommendations based on user preferences, age, weight, height, activity level, and goals.
-3. **Exercise Recommendations**: Suggests personalized exercise plans based on gender, age, weight, fitness level, and goals.
+1. **👩‍⚕️PCOS Prediction**: Predicts the likelihood of PCOS (Polycystic Ovary Syndrome) based on user inputs.
+2. **🥗Diet Recommendations**: Provides personalized meal recommendations based on user preferences, age, weight, height, activity level, and goals.
+3. **🏋️Exercise Recommendations**: Suggests personalized exercise plans based on gender, age, weight, fitness level, and goals.
 
 ## Features
 
-### 1. PCOS Prediction
+### 1. 🔬PCOS Prediction
 - The app predicts if a user has PCOS based on the following inputs:
   - Cycle regularity
   - Weight gain
@@ -20,7 +28,7 @@ This is an AI-powered Health and Fitness App that offers three main functionalit
   
 - It uses an XGBoost model to predict the result, which will either indicate **PCOS Detected** or **No PCOS**.
 
-### 2. Diet Recommendations
+### 2. 🥗Diet Recommendations
 - The app suggests personalized meal plans based on:
   - Age
   - Sex
@@ -32,7 +40,7 @@ This is an AI-powered Health and Fitness App that offers three main functionalit
   
 - After input, the app will provide meal suggestions tailored to the user's inputs.
 
-### 3. Exercise Plan Recommendations
+### 3. 🏋️Exercise Plan Recommendations
 - The app generates a personalized exercise plan based on:
   - Gender
   - Age
